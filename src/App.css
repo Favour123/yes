@@ -89,6 +89,13 @@ input:focus,
 button:focus{
   outline: none;
 }
+form{
+  display: flex;
+  justify-content: space-between;
+}
+.buts{
+  display: flex;
+}
 @media screen and (min-width:300px) and (max-width:530px){
   .app-wrapper{
     padding: 20px;

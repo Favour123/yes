@@ -34,7 +34,7 @@ const Todolist = ({ todo, setTodo, setEditTodo }) => {
                 event.preventDefault();
               }}
             />
-            <div>
+            <div className="buts">
               <button
                 className="button-complete task-button"
                 onClick={() => 
